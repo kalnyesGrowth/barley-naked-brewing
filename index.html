@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barley Naked Brewing Co. | Stafford, VA Craft Brewery &amp; Taproom</title>
+<meta name="description" content="Veteran-owned craft brewery in Stafford, VA. Award-winning beers brewed with minimal ingredients and traditional recipes. Visit our taproom for handcrafted ales, lagers, and IPAs.">
+<meta property="og:title" content="Barley Naked Brewing Co. | Stafford, VA Craft Brewery">
+<meta property="og:description" content="Veteran-owned 7 barrel brewhouse. GABF Gold Medal winner. Handcrafted beer, food trucks, live music, and a warm community taproom.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kalnyesgrowth.github.io/barley-naked-brewing/">
+<link rel="canonical" href="https://kalnyesgrowth.github.io/barley-naked-brewing/">
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link href="https://fonts.bunny.net/css2?family=fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,800&family=nunito-sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Brewery",
+  "name": "Barley Naked Brewing Co.",
+  "image": "https://images.pexels.com/photos/5530061/pexels-photo-5530061.jpeg?auto=compress&cs=tinysrgb&w=800",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "15 Tech Pkwy",
+    "addressLocality": "Stafford",
+    "addressRegion": "VA",
+    "postalCode": "22556",
+    "addressCountry": "US"
+  },
+  "telephone": "+15406234475",
+  "url": "https://barleynaked.com",
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "14:00", "closes": "20:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "14:00", "closes": "20:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "14:00", "closes": "20:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "14:00", "closes": "22:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "14:00", "closes": "22:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "14:00", "closes": "20:00"}
+  ],
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.4798734,
+    "longitude": -77.4740528
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "192"
+  },
+  "priceRange": "$$",
+  "servesCuisine": "Craft Beer",
+  "foundingDate": "2018-10"
+}
+</script>
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { overflow-x: hidden; max-width: 100vw; }
+
+:root {
+  --font-heading: 'Fraunces', serif;
+  --font-body: 'Nunito Sans', sans-serif;
+  --text-xs: 0.694rem;
+  --text-sm: 0.833rem;
+  --text-base: 1rem;
+  --text-lg: 1.200rem;
+  --text-xl: 1.440rem;
+  --text-2xl: 1.728rem;
+  --text-3xl: 2.074rem;
+  --text-4xl: 2.488rem;
+  --text-5xl: 2.986rem;
+  --bg: #141210;
+  --bg-2: #1E1B18;
+  --bg-3: #2A2520;
+  --accent: #C8842E;
+  --accent-light: #E0A84A;
+  --accent-dark: #9A6520;
+  --text-color: #F0EBE3;
+  --text-50: rgba(240,235,227,0.6);
+  --text-label: rgba(200,132,46,0.85);
+  --surface: #231F1B;
+  --border: rgba(200,132,46,0.15);
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+  --section-pad: clamp(3rem, 8vw, 6rem);
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: 1.7;
+  color: var(--text-color);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height: 1.15; }
+h1 { font-size: clamp(2.2rem, 5vw, var(--text-5xl)); line-height: 1.1; }
+h2 { font-size: clamp(1.6rem, 4vw, var(--text-4xl)); }
+h3 { font-size: clamp(1.2rem, 3vw, var(--text-3xl)); font-weight: 600; }
+a { color: var(--accent-light); text-decoration: none; transition: color 0.3s; }
+a:hover { color: var(--accent); }
+img { max-width: 100%; height: auto; display: block; }
+
+.section-label {
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--text-label);
+  margin-bottom: var(--space-xs);
+}
+
+.section {
+  padding: var(--section-pad) var(--space-md);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-dark {
+  background: var(--bg-2);
+  padding: var(--section-pad) 0;
+}
+.section-dark .section { padding-top: 0; padding-bottom: 0; }
+
+/* ========== AGE GATE ========== */
+#age-gate-check { display: none; }
+.age-gate {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(10,9,8,0.97);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: var(--space-md);
+  transition: opacity 0.5s, visibility 0.5s;
+}
+#age-gate-check:checked ~ .age-gate {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.age-gate h2 {
+  font-size: clamp(1.6rem, 4vw, var(--text-4xl));
+  margin-bottom: var(--space-xs);
+  color: var(--text-color);
+}
+.age-gate p {
+  color: var(--text-50);
+  margin-bottom: var(--space-lg);
+  font-size: var(--text-sm);
+}
+.age-gate-logo {
+  font-family: var(--font-heading);
+  font-size: clamp(1.4rem, 3vw, var(--text-3xl));
+  color: var(--accent);
+  margin-bottom: var(--space-lg);
+}
+.age-gate-btns { display: flex; gap: var(--space-sm); }
+.age-gate-btns label {
+  padding: 0.75rem 2.5rem;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: var(--text-base);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+.age-gate-btns label:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+.age-gate-btns .age-no {
+  border-color: var(--text-50);
+  color: var(--text-50);
+}
+.age-gate-btns .age-no:hover {
+  background: transparent;
+  color: var(--text-color);
+  border-color: var(--text-color);
+}
+
+/* ========== NAV ========== */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: transparent;
+  transition: background 0.4s;
+  padding: 0 var(--space-md);
+}
+nav.scrolled { background: rgba(20,18,16,0.95); }
+.nav-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+.nav-logo {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--text-color);
+}
+.nav-links { display: flex; align-items: center; gap: var(--space-md); list-style: none; }
+.nav-links a {
+  color: var(--text-color);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  opacity: 0.85;
+  transition: opacity 0.3s;
+}
+.nav-links a:hover { opacity: 1; color: var(--accent-light); }
+.nav-phone {
+  color: var(--text-color);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+.nav-cta {
+  border: 1px solid var(--accent);
+  color: var(--accent) !important;
+  padding: 0.45rem 1.2rem;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: var(--text-sm);
+  opacity: 1 !important;
+  transition: background 0.3s, color 0.3s;
+}
+.nav-cta:hover { background: var(--accent); color: var(--bg) !important; }
+
+@media (max-width: 768px) {
+  .nav-links { display: none; }
+  .nav-phone { display: none; }
+  .nav-cta { font-size: var(--text-xs); padding: 0.4rem 0.9rem; }
+}
+
+/* ========== HERO ========== */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url('assets/poster.jpg') center/cover no-repeat;
+  background-color: var(--bg);
+}
+.hero canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(20,18,16,0.65) 0%,
+    rgba(20,18,16,0.5) 40%,
+    rgba(20,18,16,0.82) 100%
+  );
+  z-index: 1;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: var(--space-xl) var(--space-md);
+}
+.hero-badge {
+  display: inline-block;
+  background: rgba(200,132,46,0.15);
+  color: var(--accent-light);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  border-radius: 2px;
+  margin-bottom: var(--space-md);
+}
+.hero h1 { margin-bottom: var(--space-sm); }
+.hero-sub {
+  color: var(--text-50);
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-lg);
+}
+.hero-cta {
+  display: inline-block;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  padding: 0.85rem 2.2rem;
+  font-weight: 600;
+  font-size: var(--text-base);
+  border-radius: 2px;
+  transition: background 0.3s, color 0.3s;
+}
+.hero-cta:hover { background: var(--accent); color: var(--bg); }
+.hero-scroll {
+  margin-top: var(--space-xl);
+  color: var(--text-50);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+.hero-scroll svg { width: 20px; height: 20px; stroke: var(--text-50); fill: none; stroke-width: 2; }
+
+/* ========== MARQUEE ========== */
+.marquee-wrap {
+  background: var(--bg-2);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  overflow: hidden;
+  white-space: nowrap;
+  padding: var(--space-sm) 0;
+}
+.marquee-track {
+  display: inline-flex;
+  animation: marquee 40s linear infinite;
+}
+.marquee-track span {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--text-50);
+  padding: 0 var(--space-lg);
+}
+.marquee-track .accent-dot { color: var(--accent); }
+@keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+/* ========== BEER MENU ========== */
+.beer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+.beer-card {
+  background: var(--surface);
+  border-top: 3px solid var(--accent);
+  padding: var(--space-md);
+  border-radius: 0 0 4px 4px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.beer-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+.beer-name {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 0.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.beer-style {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--text-label);
+  margin-bottom: 0.5rem;
+}
+.beer-data {
+  font-size: var(--text-sm);
+  color: var(--text-50);
+  margin-bottom: 0.75rem;
+  display: flex;
+  gap: 0.75rem;
+}
+.beer-award {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+.beer-award svg { width: 14px; height: 14px; fill: var(--accent); }
+.beer-desc {
+  font-size: var(--text-sm);
+  color: var(--text-50);
+  line-height: 1.6;
+}
+.beer-card-seltzer {
+  border-top-color: var(--text-50);
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+.beer-card-seltzer .beer-name { color: var(--text-50); }
+
+@media (max-width: 1024px) { .beer-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) {
+  .beer-grid { grid-template-columns: 1fr; }
+  .beer-card-seltzer { flex-direction: column; }
+}
+
+/* ========== ABOUT ========== */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+  margin-top: var(--space-lg);
+}
+.about-text p { color: var(--text-50); margin-bottom: var(--space-sm); }
+.about-text blockquote {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-style: italic;
+  color: var(--accent-light);
+  border-left: 3px solid var(--accent);
+  padding-left: var(--space-sm);
+  margin: var(--space-md) 0;
+}
+.about-img {
+  border-radius: 4px;
+  overflow: hidden;
+}
+.about-img img { width: 100%; object-fit: cover; aspect-ratio: 4/3; }
+@media (max-width: 768px) {
+  .about-grid { grid-template-columns: 1fr; }
+  .about-img { order: -1; }
+}
+
+/* ========== AWARDS ROW ========== */
+.awards-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  justify-content: center;
+  margin-top: var(--space-lg);
+  padding: var(--space-md) 0;
+}
+.award-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-50);
+  font-size: var(--text-sm);
+  font-weight: 500;
+}
+.award-item svg { width: 22px; height: 22px; fill: var(--accent); flex-shrink: 0; }
+.award-item strong { color: var(--accent-light); }
+
+/* ========== PROCESS TIMELINE ========== */
+.timeline-wrap { position: relative; margin-top: var(--space-lg); }
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border);
+  transform: translateX(-50%);
+}
+.timeline-fill {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 2px;
+  height: 0;
+  background: var(--accent);
+  transform: translateX(-50%);
+  transition: height 0.1s linear;
+}
+.timeline-icon-float {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  transform: translate(-50%, -16px);
+  color: var(--accent);
+  z-index: 3;
+  transition: top 0.1s linear;
+}
+.timeline-step {
+  position: relative;
+  width: 45%;
+  padding: var(--space-md);
+  margin-bottom: var(--space-lg);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s, transform 0.6s;
+}
+.timeline-step.visible { opacity: 1; transform: translateY(0); }
+.timeline-step:nth-child(odd) { margin-left: 55%; }
+.timeline-step:nth-child(even) { margin-right: 55%; text-align: right; }
+.timeline-dot {
+  position: absolute;
+  top: var(--space-md);
+  width: 36px;
+  height: 36px;
+  background: var(--bg);
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.timeline-dot svg { width: 18px; height: 18px; stroke: var(--accent); fill: none; stroke-width: 2; }
+.timeline-step:nth-child(odd) .timeline-dot { left: -18px; transform: translateX(-50%); }
+.timeline-step:nth-child(even) .timeline-dot { right: -18px; transform: translateX(50%); }
+.timeline-num {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+.timeline-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.timeline-desc { font-size: var(--text-sm); color: var(--text-50); line-height: 1.6; }
+
+@media (max-width: 768px) {
+  .timeline-line, .timeline-fill { left: 20px; }
+  .timeline-icon-float { left: 20px; }
+  .timeline-step { width: calc(100% - 50px); margin-left: 50px !important; margin-right: 0 !important; text-align: left !important; }
+  .timeline-step .timeline-dot { left: -32px !important; right: auto !important; transform: none !important; }
+}
+
+/* ========== GALLERY ========== */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+}
+.gallery-item { overflow: hidden; border-radius: 4px; }
+.gallery-item img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+.gallery-item:hover img { transform: scale(1.05); }
+@media (max-width: 600px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); } }
+
+/* ========== REVIEWS ========== */
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+.review-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: var(--space-md);
+  border-radius: 4px;
+}
+.review-stars {
+  display: flex;
+  gap: 2px;
+  margin-bottom: var(--space-xs);
+}
+.review-stars svg { width: 16px; height: 16px; fill: var(--accent); }
+.review-text {
+  font-size: var(--text-sm);
+  color: var(--text-50);
+  line-height: 1.7;
+  margin-bottom: var(--space-sm);
+  font-style: italic;
+}
+.review-name {
+  font-weight: 700;
+  font-size: var(--text-sm);
+  color: var(--text-color);
+}
+
+.review-cta-box {
+  text-align: center;
+  margin-top: var(--space-lg);
+  padding: var(--space-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+.review-cta-box h3 { margin-bottom: var(--space-xs); }
+.review-cta-box p { color: var(--text-50); margin-bottom: var(--space-md); font-size: var(--text-sm); }
+.review-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--accent);
+  color: var(--bg);
+  padding: 0.75rem 1.5rem;
+  font-weight: 700;
+  border-radius: 2px;
+  transition: background 0.3s;
+}
+.review-cta-btn:hover { background: var(--accent-light); color: var(--bg); }
+.review-cta-btn svg { width: 18px; height: 18px; fill: var(--bg); }
+
+/* ========== HOURS & LOCATION ========== */
+.hours-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  margin-top: var(--space-lg);
+  align-items: start;
+}
+.hours-table { width: 100%; border-collapse: collapse; }
+.hours-table tr { border-bottom: 1px solid var(--border); }
+.hours-table td { padding: 0.6rem 0; font-size: var(--text-sm); }
+.hours-table td:first-child { font-weight: 600; }
+.hours-table td:last-child { text-align: right; color: var(--text-50); }
+.hours-table tr.today td { color: var(--accent-light); font-weight: 700; }
+.hours-table tr.today td:last-child { color: var(--accent-light); }
+.hours-closed { color: var(--text-50); opacity: 0.6; }
+.hours-map { border-radius: 4px; overflow: hidden; }
+.hours-map iframe { border-radius: 4px; }
+
+.amenities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+}
+.amenity-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--bg-3);
+  padding: 0.4rem 0.8rem;
+  border-radius: 2px;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--text-50);
+}
+.amenity-tag svg { width: 14px; height: 14px; fill: var(--accent); }
+
+@media (max-width: 768px) {
+  .hours-grid { grid-template-columns: 1fr; }
+}
+
+/* ========== CONTACT INFO ========== */
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: var(--text-sm);
+}
+.contact-item svg { width: 18px; height: 18px; fill: var(--accent); flex-shrink: 0; }
+
+/* ========== FAQ ========== */
+.faq-list { margin-top: var(--space-lg); }
+.faq-item { border-bottom: 1px solid var(--border); }
+.faq-question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-sm) 0;
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+}
+.faq-question svg {
+  width: 20px;
+  height: 20px;
+  stroke: var(--accent);
+  fill: none;
+  stroke-width: 2;
+  flex-shrink: 0;
+  transition: transform 0.3s;
+}
+.faq-question[aria-expanded="true"] svg { transform: rotate(45deg); }
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+.faq-answer-inner {
+  padding: 0 0 var(--space-sm) 0;
+  color: var(--text-50);
+  font-size: var(--text-sm);
+  line-height: 1.7;
+}
+
+/* ========== CTA BANNER ========== */
+.cta-banner {
+  text-align: center;
+  background: linear-gradient(135deg, var(--bg-2), var(--bg-3));
+  padding: var(--section-pad) var(--space-md);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.cta-banner h2 { margin-bottom: var(--space-xs); }
+.cta-banner p { color: var(--text-50); margin-bottom: var(--space-md); }
+.cta-banner-actions {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+.cta-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--accent);
+  color: var(--bg);
+  padding: 0.85rem 1.8rem;
+  font-weight: 700;
+  border-radius: 2px;
+  transition: background 0.3s;
+}
+.cta-primary:hover { background: var(--accent-light); color: var(--bg); }
+.cta-primary svg { width: 18px; height: 18px; fill: var(--bg); }
+.cta-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  padding: 0.85rem 1.8rem;
+  font-weight: 700;
+  border-radius: 2px;
+  transition: background 0.3s, color 0.3s;
+}
+.cta-secondary:hover { background: var(--accent); color: var(--bg); }
+.cta-secondary svg { width: 18px; height: 18px; fill: currentColor; }
+
+/* ========== FOOTER ========== */
+footer {
+  background: var(--bg-2);
+  padding: var(--space-xl) var(--space-md) var(--space-md);
+  border-top: 1px solid var(--border);
+}
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: var(--space-xl);
+}
+.footer-brand .nav-logo { margin-bottom: var(--space-sm); display: inline-block; }
+.footer-brand p { color: var(--text-50); font-size: var(--text-sm); margin-bottom: var(--space-sm); }
+.footer-links h4 {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  margin-bottom: var(--space-sm);
+  color: var(--text-color);
+}
+.footer-links ul { list-style: none; }
+.footer-links li { margin-bottom: 0.4rem; }
+.footer-links a { color: var(--text-50); font-size: var(--text-sm); }
+.footer-links a:hover { color: var(--accent-light); }
+.footer-social { display: flex; gap: var(--space-sm); margin-top: var(--space-sm); }
+.footer-social a { color: var(--text-50); transition: color 0.3s; }
+.footer-social a:hover { color: var(--accent); }
+.footer-social svg { width: 22px; height: 22px; fill: currentColor; }
+.footer-bottom {
+  max-width: 1200px;
+  margin: var(--space-lg) auto 0;
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  font-size: var(--text-xs);
+  color: var(--text-50);
+}
+@media (max-width: 768px) {
+  .footer-inner { grid-template-columns: 1fr; }
+}
+
+/* ========== MOBILE STICKY ========== */
+.mobile-sticky {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 90;
+  background: var(--bg-2);
+  border-top: 1px solid var(--border);
+  padding: 12px 16px;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .mobile-sticky { display: flex; }
+  body { padding-bottom: 72px; }
+}
+.sticky-call, .sticky-dir {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.7rem;
+  font-weight: 700;
+  font-size: var(--text-sm);
+  border-radius: 2px;
+  text-align: center;
+}
+.sticky-call {
+  background: var(--accent);
+  color: var(--bg);
+}
+.sticky-call svg { width: 18px; height: 18px; fill: var(--bg); }
+.sticky-dir {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}
+.sticky-dir svg { width: 18px; height: 18px; fill: var(--accent); }
+
+/* ========== REVEAL ANIMATION ========== */
+.reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s, transform 0.7s; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+  h1 { font-size: var(--text-3xl); }
+  h2 { font-size: var(--text-2xl); }
+  h3 { font-size: var(--text-xl); }
+  body { font-size: 15px; }
+  .cta-primary, .cta-secondary { white-space: normal; max-width: 90%; width: 100%; justify-content: center; }
+}
+</style>
+</head>
+<body>
+
+<!-- AGE GATE -->
+<input type="checkbox" id="age-gate-check">
+<div class="age-gate">
+  <div class="age-gate-logo">Barley Naked Brewing Co.</div>
+  <h2>Are you 21 or older?</h2>
+  <p>You must be of legal drinking age to enter this site.</p>
+  <div class="age-gate-btns">
+    <label for="age-gate-check">Yes, I am</label>
+    <a href="https://www.google.com" class="age-no">No, I'm not</a>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">Barley Naked</a>
+    <ul class="nav-links">
+      <li><a href="#beer-menu">Beer Menu</a></li>
+      <li><a href="#about">Our Story</a></li>
+      <li><a href="#hours">Hours</a></li>
+      <li><a href="tel:+15406234475" class="nav-phone">(540) 623-4475</a></li>
+      <li><a href="#hours" class="nav-cta">Visit the Taproom</a></li>
+    </ul>
+    <a href="#hours" class="nav-cta" style="display:none" id="mobileCta">Visit the Taproom</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <canvas id="heroCanvas"></canvas>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Veteran Owned</div>
+    <h1>Barley Naked Brewing Co.</h1>
+    <p class="hero-sub">Handcrafted in Stafford, VA since 2018</p>
+    <a href="#hours" class="hero-cta">Visit the Taproom</a>
+    <div class="hero-scroll">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="7 13 12 18 17 13"/><line x1="12" y1="18" x2="12" y2="6"/></svg>
+      Scroll
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span>GABF Gold Medal <span class="accent-dot">&bull;</span></span>
+    <span>Best Brewery in Virginia <span class="accent-dot">&bull;</span></span>
+    <span>World Beer Cup Winner <span class="accent-dot">&bull;</span></span>
+    <span>Veteran Owned <span class="accent-dot">&bull;</span></span>
+    <span>7 Barrel Brewhouse <span class="accent-dot">&bull;</span></span>
+    <span>Handcrafted Since 2018 <span class="accent-dot">&bull;</span></span>
+    <span>Best Brewery in Northern Virginia <span class="accent-dot">&bull;</span></span>
+    <span>Food Trucks Daily <span class="accent-dot">&bull;</span></span>
+    <span>GABF Gold Medal <span class="accent-dot">&bull;</span></span>
+    <span>Best Brewery in Virginia <span class="accent-dot">&bull;</span></span>
+    <span>World Beer Cup Winner <span class="accent-dot">&bull;</span></span>
+    <span>Veteran Owned <span class="accent-dot">&bull;</span></span>
+    <span>7 Barrel Brewhouse <span class="accent-dot">&bull;</span></span>
+    <span>Handcrafted Since 2018 <span class="accent-dot">&bull;</span></span>
+    <span>Best Brewery in Northern Virginia <span class="accent-dot">&bull;</span></span>
+    <span>Food Trucks Daily <span class="accent-dot">&bull;</span></span>
+  </div>
+</div>
+
+<!-- BEER MENU -->
+<div class="section-dark">
+<section class="section" id="beer-menu">
+  <p class="section-label reveal">On Tap</p>
+  <h2 class="reveal">What's Pouring</h2>
+  <div class="beer-grid">
+
+    <div class="beer-card reveal">
+      <div class="beer-name">Cream Ale</div>
+      <div class="beer-style">Cream Ale</div>
+      <div class="beer-data"><span>5.5% ABV</span><span>&middot;</span><span>14 IBU</span></div>
+      <p class="beer-desc">Consistently our best seller. Rich malty character with a smooth, clean finish that makes it perfect for any occasion.</p>
+    </div>
+
+    <div class="beer-card reveal">
+      <div class="beer-name">Rock Hill Irish Red</div>
+      <div class="beer-style">Irish Red Ale</div>
+      <div class="beer-data"><span>5.3% ABV</span><span>&middot;</span><span>21 IBU</span></div>
+      <div class="beer-award"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg> GABF Gold 2023 / World Beer Cup Gold 2024</div>
+      <p class="beer-desc">Award-winning blend of malt and toffee notes with a clean, balanced finish. Our most decorated brew.</p>
+    </div>
+
+    <div class="beer-card reveal">
+      <div class="beer-name">The Nudie</div>
+      <div class="beer-style">Light American Lager</div>
+      <div class="beer-data"><span>4.1% ABV</span><span>&middot;</span><span>11.4 IBU</span></div>
+      <div class="beer-award"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg> VA Craft Beer Cup Gold</div>
+      <p class="beer-desc">Crisp, bready finish with balanced hops. Light, clean, and refreshing.</p>
+    </div>
+
+    <div class="beer-card reveal">
+      <div class="beer-name">Hop Naked IPA</div>
+      <div class="beer-style">West Coast IPA</div>
+      <div class="beer-data"><span>5.8% ABV</span><span>&middot;</span><span>15 IBU</span></div>
+      <p class="beer-desc">Citrus-forward with East Kent Goldings hops. A West Coast classic with a clean, bitter finish.</p>
+    </div>
+
+    <div class="beer-card reveal">
+      <div class="beer-name">Bad Principals</div>
+      <div class="beer-style">New England Hazy IPA</div>
+      <div class="beer-data"><span>7.5% ABV</span></div>
+      <p class="beer-desc">Citra, mosaic, and amarillo hops deliver a juicy, hazy experience with a grapefruit finish.</p>
+    </div>
+
+    <div class="beer-card reveal">
+      <div class="beer-name">Irish Prenup</div>
+      <div class="beer-style">Oatmeal Milk Stout</div>
+      <div class="beer-data"><span>5.3% ABV</span><span>&middot;</span><span>22 IBU</span></div>
+      <div class="beer-award"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg> GABF Bronze / World Beer Cup Bronze 2026</div>
+      <p class="beer-desc">Rich coffee and chocolate notes balanced with oat smoothness. A multiple award winner.</p>
+    </div>
+
+    <div class="beer-card reveal">
+      <div class="beer-name">LuftKuss</div>
+      <div class="beer-style">German Pilsner</div>
+      <div class="beer-data"><span>4.8% ABV</span><span>&middot;</span><span>31 IBU</span></div>
+      <p class="beer-desc">Dry, crisp with lingering bitterness from Northern Brewer and Saaz hops. Barry's personal favorite.</p>
+    </div>
+
+    <div class="beer-card reveal">
+      <div class="beer-name">Honey Churro</div>
+      <div class="beer-style">Amber Ale</div>
+      <div class="beer-data"><span>6.1% ABV</span><span>&middot;</span><span>17 IBU</span></div>
+      <p class="beer-desc">Brewed with cinnamon, vanilla, and honey. Served with a honey-cinnamon-sugar rim for the full experience.</p>
+    </div>
+
+    <div class="beer-card reveal">
+      <div class="beer-name">Barley Legal</div>
+      <div class="beer-style">Light Lager</div>
+      <div class="beer-data"><span>3.8% ABV</span><span>&middot;</span><span>9 IBU</span></div>
+      <p class="beer-desc">Low bitterness, high drinkability. Designed for those who want something light and easy.</p>
+    </div>
+
+    <div class="beer-card reveal">
+      <div class="beer-name">Lemon O'Shandy</div>
+      <div class="beer-style">Fruit Beer</div>
+      <div class="beer-data"><span>4.1% ABV</span><span>&middot;</span><span>15.9 IBU</span></div>
+      <p class="beer-desc">Light malt base infused with tart lemonade. The perfect summer patio beer.</p>
+    </div>
+
+    <div class="beer-card reveal">
+      <div class="beer-name">Berry Sour</div>
+      <div class="beer-style">Kettle Sour</div>
+      <div class="beer-data"><span>4.4% ABV</span><span>&middot;</span><span>19 IBU</span></div>
+      <p class="beer-desc">Tart ale with wild berry notes. Gluten-free and refreshingly different.</p>
+    </div>
+
+    <div class="beer-card beer-card-seltzer reveal">
+      <div>
+        <div class="beer-name">Naked Water Hard Seltzer</div>
+        <div class="beer-style">Hard Seltzer</div>
+        <div class="beer-data"><span>5.3% ABV</span></div>
+      </div>
+      <p class="beer-desc">Customizable base with 11+ flavor options including strawberry lemonade, mango, peach, and blood orange. Not a beer drinker? We have you covered.</p>
+    </div>
+
+  </div>
+</section>
+</div>
+
+<!-- ABOUT / STORY -->
+<section class="section" id="about">
+  <p class="section-label reveal">Our Story</p>
+  <h2 class="reveal">From Service to Suds</h2>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>Barry Boyd spent 29 years in the U.S. Coast Guard, retiring in 2014 after a career built on discipline, precision, and service. But his second calling had been brewing since 2003, when he poured his first homebrew.</p>
+      <p>After training under Greg Bentley at Black Cap Brewery in Pennsylvania, Barry and his wife Missy opened the doors of Barley Naked Brewing Company in October 2018. What started as a modest 7 barrel brewhouse quickly became Stafford's gathering place.</p>
+      <blockquote>"Life is far too complicated and way too short, so relax, smile, and drink Barley Naked beer. It is simply perfection in each pint."</blockquote>
+      <p>With Head Brewer Brady Fox (a JMU engineering grad) and Operations Manager Gary Preston keeping things running, the brewery has grown from a veteran's dream into an award-winning destination. But it still feels like walking into Barry and Missy's living room.</p>
+    </div>
+    <div class="about-img reveal">
+      <img src="https://images.pexels.com/photos/5530054/pexels-photo-5530054.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Craft brewing equipment inside a small brewhouse" loading="lazy" width="800" height="600">
+    </div>
+  </div>
+
+  <!-- AWARDS ROW -->
+  <div class="awards-row reveal">
+    <div class="award-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+      <span><strong>GABF Gold</strong> 2023</span>
+    </div>
+    <div class="award-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+      <span><strong>World Beer Cup</strong> Gold &amp; Bronze</span>
+    </div>
+    <div class="award-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+      <span><strong>Best Brewery in VA</strong> Yelp/Insider</span>
+    </div>
+    <div class="award-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+      <span><strong>Best in NoVA</strong> NoVA Magazine</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS / TIMELINE -->
+<div class="section-dark">
+<section class="section" id="process">
+  <p class="section-label reveal">Our Process</p>
+  <h2 class="reveal">Grain to Glass</h2>
+  <div class="timeline-wrap">
+    <div class="timeline-line"></div>
+    <div class="timeline-fill" id="timelineFill"></div>
+    <svg class="timeline-icon-float" id="timelineFloat" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16 4a4 4 0 014 4v1h1a2 2 0 012 2v14a2 2 0 01-2 2H11a2 2 0 01-2-2V11a2 2 0 012-2h1V8a4 4 0 014-4zm0 3a1 1 0 00-1 1v1h2V8a1 1 0 00-1-1z"/></svg>
+
+    <div class="timeline-step">
+      <div class="timeline-dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0120 10.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg></div>
+      <p class="timeline-num">Step 01</p>
+      <h3 class="timeline-title">Source</h3>
+      <p class="timeline-desc">Carefully selected grains, hops, and yeast. Minimal ingredients, maximum quality. Every recipe built on tradition.</p>
+    </div>
+
+    <div class="timeline-step">
+      <div class="timeline-dot"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg></div>
+      <p class="timeline-num">Step 02</p>
+      <h3 class="timeline-title">Brew</h3>
+      <p class="timeline-desc">Handcrafted in our 7 barrel brewhouse. Each batch individually brewed by Head Brewer Brady Fox and the team.</p>
+    </div>
+
+    <div class="timeline-step">
+      <div class="timeline-dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 6v6l4 2"/></svg></div>
+      <p class="timeline-num">Step 03</p>
+      <h3 class="timeline-title">Condition</h3>
+      <p class="timeline-desc">Patience. Each batch is properly conditioned until it reaches perfection. No shortcuts, no compromises.</p>
+    </div>
+
+    <div class="timeline-step">
+      <div class="timeline-dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+      <p class="timeline-num">Step 04</p>
+      <h3 class="timeline-title">Pour</h3>
+      <p class="timeline-desc">Fresh from our taps to your glass. The way beer should be enjoyed, in the company of good people.</p>
+    </div>
+  </div>
+</section>
+</div>
+
+<!-- GALLERY -->
+<section class="section" id="gallery">
+  <p class="section-label reveal">The Taproom</p>
+  <h2 class="reveal">Inside Barley Naked</h2>
+  <div class="gallery-grid">
+    <div class="gallery-item reveal"><img src="https://images.pexels.com/photos/1267696/pexels-photo-1267696.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Craft beer glasses lined up at the bar" loading="lazy" width="600" height="400"></div>
+    <div class="gallery-item reveal"><img src="https://images.pexels.com/photos/1267350/pexels-photo-1267350.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beer flight sampler on a wooden paddle" loading="lazy" width="600" height="400"></div>
+    <div class="gallery-item reveal"><img src="https://images.pexels.com/photos/5530061/pexels-photo-5530061.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Brewery interior with stainless steel tanks" loading="lazy" width="600" height="400"></div>
+    <div class="gallery-item reveal"><img src="https://images.pexels.com/photos/1552630/pexels-photo-1552630.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Craft beer being poured from a tap" loading="lazy" width="600" height="400"></div>
+    <div class="gallery-item reveal"><img src="https://images.pexels.com/photos/1089930/pexels-photo-1089930.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Assorted craft beers on a bar counter" loading="lazy" width="600" height="400"></div>
+    <div class="gallery-item reveal"><img src="https://images.pexels.com/photos/5530242/pexels-photo-5530242.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Outdoor seating area at a brewery" loading="lazy" width="600" height="400"></div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<div class="section-dark">
+<section class="section" id="reviews">
+  <p class="section-label reveal">What People Say</p>
+  <h2 class="reveal">From Our Guests</h2>
+  <div class="reviews-grid">
+
+    <div class="review-card reveal">
+      <div class="review-stars" aria-label="5 out of 5 stars">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+      </div>
+      <p class="review-text">"Barry and Missy gave us a real warm welcome, reminiscent of what you would have got in Ireland 30 years ago."</p>
+      <p class="review-name">OnAir324</p>
+    </div>
+
+    <div class="review-card reveal">
+      <div class="review-stars" aria-label="5 out of 5 stars">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+      </div>
+      <p class="review-text">"Excellent service from Ashley and Jenna, both provided great recommendations. Nice setup with tables inside, two bar-style seating areas, a covered seated area, and outdoor tents."</p>
+      <p class="review-name">Jesse C.</p>
+    </div>
+
+    <div class="review-card reveal">
+      <div class="review-stars" aria-label="5 out of 5 stars">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+      </div>
+      <p class="review-text">"They showed us around their micro brewery and explained the whole brewing process. We loved the Naked Penguin and Irish Pre-nup."</p>
+      <p class="review-name">Carmel C.</p>
+    </div>
+
+    <div class="review-card reveal">
+      <div class="review-stars" aria-label="5 out of 5 stars">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+      </div>
+      <p class="review-text">"Service was great and the drinks were too. Excellent prices, food trucks rotate, and they honor first responders, military, and teachers."</p>
+      <p class="review-name">J E.</p>
+    </div>
+
+    <div class="review-card reveal">
+      <div class="review-stars" aria-label="4 out of 5 stars">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true" style="fill:var(--bg-3)"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+      </div>
+      <p class="review-text">"Friendly staff. Reasonable beer prices and usually a good food truck. Nice outdoor seating and ample parking."</p>
+      <p class="review-name">Mary &amp; Bob</p>
+    </div>
+
+  </div>
+
+  <div class="review-cta-box reveal">
+    <h3>Enjoyed Your Visit?</h3>
+    <p>Leave us a Google review and mention this website for 10% off your next tab.</p>
+    <a href="https://search.google.com/local/writereview?placeid=ChIJ__8_Yf_tboYRSrVrLQNA9c0" target="_blank" rel="noopener" class="review-cta-btn">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+      Leave a Review
+    </a>
+  </div>
+</section>
+</div>
+
+<!-- HOURS & LOCATION -->
+<section class="section" id="hours">
+  <p class="section-label reveal">Visit Us</p>
+  <h2 class="reveal">Hours &amp; Location</h2>
+  <div class="hours-grid">
+    <div class="reveal">
+      <table class="hours-table">
+        <tr><td>Monday</td><td class="hours-closed">Closed</td></tr>
+        <tr><td>Tuesday</td><td>2:00 PM - 8:00 PM</td></tr>
+        <tr><td>Wednesday</td><td>2:00 PM - 8:00 PM</td></tr>
+        <tr><td>Thursday</td><td>2:00 PM - 8:00 PM</td></tr>
+        <tr><td>Friday</td><td>2:00 PM - 10:00 PM</td></tr>
+        <tr><td>Saturday</td><td>2:00 PM - 10:00 PM</td></tr>
+        <tr><td>Sunday</td><td>2:00 PM - 8:00 PM</td></tr>
+      </table>
+
+      <div class="contact-row" style="margin-top:var(--space-md)">
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          <a href="tel:+15406234475">(540) 623-4475</a>
+        </div>
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1112 7a2.5 2.5 0 010 4.5z"/></svg>
+          <a href="https://maps.google.com/?q=15+Tech+Pkwy+Stafford+VA+22556" target="_blank" rel="noopener">15 Tech Pkwy, Stafford, VA 22556</a>
+        </div>
+      </div>
+
+      <div class="amenities">
+        <div class="amenity-tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z"/></svg> Food Trucks Daily</div>
+        <div class="amenity-tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 9.5m-2.5 0a2.5 2.5 0 105 0 2.5 2.5 0 10-5 0M9 8c0-1.1.9-2 2-2h4.5C16.88 6 18 7.12 18 8.5S16.88 11 15.5 11H11c-1.1 0-2-.9-2-2zM3 18.5c0-.83.67-1.5 1.5-1.5h4c.83 0 1.5.67 1.5 1.5S9.33 20 8.5 20h-4c-.83 0-1.5-.67-1.5-1.5z"/></svg> Dog Friendly</div>
+        <div class="amenity-tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg> Live Music</div>
+        <div class="amenity-tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg> Military Discount</div>
+        <div class="amenity-tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM7 12h2v5H7zm4-3h2v8h-2zm4-3h2v11h-2z"/></svg> Covered Patio</div>
+      </div>
+    </div>
+    <div class="hours-map reveal">
+      <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-77.4790%2C38.4770%2C-77.4690%2C38.4830&layer=mapnik&marker=38.4798734%2C-77.4740528" width="100%" height="300" style="border:none;" loading="lazy" title="Map showing Barley Naked Brewing Co. location"></iframe>
+      <a href="https://maps.google.com/?q=15+Tech+Pkwy+Stafford+VA+22556" target="_blank" rel="noopener" style="display:inline-block;margin-top:var(--space-xs);font-size:var(--text-sm);color:var(--accent-light);">Open in Google Maps</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<div class="section-dark">
+<section class="section" id="faq">
+  <p class="section-label reveal">Questions</p>
+  <h2 class="reveal">Frequently Asked</h2>
+  <div class="faq-list reveal">
+
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">What kind of beer do you brew?<svg viewBox="0 0 24 24" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+      <div class="faq-answer"><div class="faq-answer-inner">We brew a wide range of traditional styles including cream ales, IPAs, stouts, lagers, pilsners, ambers, and sours. We also offer a customizable hard seltzer with 11+ flavors. Our tap list rotates, but we always keep our award-winning Rock Hill Irish Red, Cream Ale, and Irish Prenup on tap.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">Do you serve food?<svg viewBox="0 0 24 24" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+      <div class="faq-answer"><div class="faq-answer-inner">We have food trucks on site nearly every day we are open. The truck schedule rotates, so you will find a different option most visits. Follow us on Facebook or Instagram for the daily food truck lineup.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">Is it kid and dog friendly?<svg viewBox="0 0 24 24" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+      <div class="faq-answer"><div class="faq-answer-inner">Yes to both. Families are welcome, and well-behaved dogs on leashes are always invited. We have covered outdoor seating and indoor space so there is room for everyone.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">Do you offer brewery tours?<svg viewBox="0 0 24 24" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+      <div class="faq-answer"><div class="faq-answer-inner">We are happy to show guests around our brewhouse. Just ask Barry or the team when you visit. It is a small 7 barrel operation, so you get to see everything up close.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">Do you offer military or first responder discounts?<svg viewBox="0 0 24 24" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+      <div class="faq-answer"><div class="faq-answer-inner">Absolutely. As a veteran-owned business, we honor first responders, military, and teachers with a discount. Just show your ID when you order.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">Can I buy beer to go?<svg viewBox="0 0 24 24" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+      <div class="faq-answer"><div class="faq-answer-inner">Yes. We offer crowlers and growlers to go so you can enjoy Barley Naked beer at home. We also have gift cards and merchandise available in our online store.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">Where are you located?<svg viewBox="0 0 24 24" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+      <div class="faq-answer"><div class="faq-answer-inner">We are located at 15 Tech Parkway in Stafford, VA 22556, in the north Stafford area near Garrisonville Road. There is ample parking available.</div></div>
+    </div>
+
+  </div>
+</section>
+</div>
+
+<!-- CTA BANNER -->
+<div class="cta-banner">
+  <h2>Ready for a Pint?</h2>
+  <p>Stop by our Stafford taproom or give us a call. We would love to pour you one.</p>
+  <div class="cta-banner-actions">
+    <a href="tel:+15406234475" class="cta-primary">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      Call (540) 623-4475
+    </a>
+    <a href="https://maps.google.com/?q=15+Tech+Pkwy+Stafford+VA+22556" target="_blank" rel="noopener" class="cta-secondary">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1112 7a2.5 2.5 0 010 4.5z"/></svg>
+      Get Directions
+    </a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="#" class="nav-logo">Barley Naked Brewing Co.</a>
+      <p>Veteran-owned craft brewery in Stafford, Virginia. Minimal ingredients, traditional recipes, and a passion for great beer since 2018.</p>
+      <p>15 Tech Pkwy, Stafford, VA 22556</p>
+      <p><a href="tel:+15406234475">(540) 623-4475</a></p>
+      <div class="footer-social">
+        <a href="https://facebook.com/1435597776691102" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+        </a>
+        <a href="https://instagram.com/barleynakedbrewing" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <h4>Taproom</h4>
+      <ul>
+        <li><a href="#beer-menu">Beer Menu</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Info</h4>
+      <ul>
+        <li><a href="#hours">Hours &amp; Location</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="https://stores.inksoft.com/barley_naked_brewing_company" target="_blank" rel="noopener">Merch Store</a></li>
+        <li><a href="https://barleynaked.com" target="_blank" rel="noopener">Official Website</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>Must be 21 or older to enter. Please drink responsibly.</span>
+    <span>&copy; 2024 Barley Naked Brewing Co. All rights reserved.</span>
+  </div>
+</footer>
+
+<!-- MOBILE STICKY BAR -->
+<div class="mobile-sticky">
+  <a href="tel:+15406234475" class="sticky-call">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+    Call Now
+  </a>
+  <a href="https://maps.google.com/?q=15+Tech+Pkwy+Stafford+VA+22556" target="_blank" rel="noopener" class="sticky-dir">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1112 7a2.5 2.5 0 010 4.5z"/></svg>
+    Directions
+  </a>
+</div>
+
+<!-- Remaining images used: 159291 (beer taps), 2286972 (taproom), 1269025 (amber ale) -->
+<!-- Used in: about section (5530054), gallery (1267696, 1267350, 5530061, 1552630, 1089930, 5530242) -->
+<!-- All 10 images: 1267696, 159291(unused-reserved), 5530061, 1267350, 1552630, 1089930, 2286972(unused-reserved), 5530054, 1269025(unused-reserved), 5530242 -->
+
+<script>
+(function(){
+  // Canvas Video Renderer
+  const canvas = document.getElementById('heroCanvas');
+  const ctx = canvas.getContext('2d');
+  const video = document.createElement('video');
+  video.muted = true;
+  video.loop = true;
+  video.playsInline = true;
+  video.setAttribute('playsinline','');
+  video.setAttribute('webkit-playsinline','');
+  video.preload = 'auto';
+  video.src = window.innerWidth < 768 ? 'assets/hero-mobile.mp4' : 'assets/hero.mp4';
+
+  function resizeCanvas() {
+    const hero = document.querySelector('.hero');
+    canvas.width = hero.offsetWidth;
+    canvas.height = hero.offsetHeight;
+  }
+
+  function drawFrame() {
+    if (!video.paused && !video.ended) {
+      ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+    }
+    requestAnimationFrame(drawFrame);
+  }
+
+  video.addEventListener('canplay', function() {
+    resizeCanvas();
+    video.play().catch(function(){});
+    drawFrame();
+  });
+
+  window.addEventListener('resize', resizeCanvas);
+  video.load();
+
+  // Nav scroll behavior
+  var navEl = document.querySelector('nav');
+  var heroSection = document.getElementById('hero');
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > heroSection.offsetHeight - 80) {
+      navEl.classList.add('scrolled');
+    } else {
+      navEl.classList.remove('scrolled');
+    }
+  });
+
+  // Show mobile CTA in nav
+  if (window.innerWidth <= 768) {
+    var mc = document.getElementById('mobileCta');
+    if (mc) mc.style.display = 'inline-block';
+  }
+
+  // Reveal on scroll
+  var reveals = document.querySelectorAll('.reveal');
+  var revealObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  reveals.forEach(function(el) { revealObserver.observe(el); });
+
+  // Timeline scroll animation
+  var timelineWrap = document.querySelector('.timeline-wrap');
+  var timelineFill = document.getElementById('timelineFill');
+  var timelineFloat = document.getElementById('timelineFloat');
+  var timelineSteps = document.querySelectorAll('.timeline-step');
+
+  if (timelineWrap && timelineFill) {
+    var stepObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.2 });
+    timelineSteps.forEach(function(s) { stepObserver.observe(s); });
+
+    window.addEventListener('scroll', function() {
+      var rect = timelineWrap.getBoundingClientRect();
+      var wrapTop = rect.top;
+      var wrapH = rect.height;
+      var winH = window.innerHeight;
+      var progress = Math.max(0, Math.min(1, (winH - wrapTop) / (wrapH + winH)));
+      var fillH = progress * wrapH;
+      timelineFill.style.height = fillH + 'px';
+      if (timelineFloat) {
+        timelineFloat.style.top = Math.min(fillH, wrapH - 32) + 'px';
+      }
+    });
+  }
+
+  // FAQ accordion
+  var faqBtns = document.querySelectorAll('.faq-question');
+  faqBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var expanded = this.getAttribute('aria-expanded') === 'true';
+      faqBtns.forEach(function(b) {
+        b.setAttribute('aria-expanded', 'false');
+        b.parentElement.querySelector('.faq-answer').style.maxHeight = null;
+      });
+      if (!expanded) {
+        this.setAttribute('aria-expanded', 'true');
+        var answer = this.parentElement.querySelector('.faq-answer');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+      }
+    });
+  });
+
+  // Highlight today's hours
+  var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  var today = days[new Date().getDay()];
+  var rows = document.querySelectorAll('.hours-table tr');
+  rows.forEach(function(row) {
+    if (row.querySelector('td') && row.querySelector('td').textContent.trim() === today) {
+      row.classList.add('today');
+    }
+  });
+
+  // Smooth scroll for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+    a.addEventListener('click', function(e) {
+      var target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>
